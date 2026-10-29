@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deliverable 4: Lead Chat & Walkthrough Controller</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #0f172a;
+      color: #f8fafc;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      padding: 4px 10px;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 9999px;
+      color: #94a3b8;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+    }
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #94a3b8;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+    .lead-info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      background: #0f172a;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .lead-info-label { color: #64748b; font-size: 12px; }
+    .lead-info-val { font-weight: 600; color: #f8fafc; font-family: monospace; }
+    
+    .storyboard-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .btn-step {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #334155;
+      border: 1px solid #475569;
+      color: #f8fafc;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-align: left;
+    }
+    .btn-step:hover {
+      background: #0284c7;
+      border-color: #38bdf8;
+      transform: translateY(-1px);
+    }
+    .btn-step .tag {
+      font-size: 11px;
+      background: rgba(255,255,255,0.15);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: monospace;
+      white-space: nowrap;
+      margin-left: 10px;
+    }
+    .custom-send {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .custom-send input {
+      flex: 1;
+      background: #0f172a;
+      border: 1px solid #334155;
+      color: #f8fafc;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .custom-send input:focus {
+      outline: none;
+      border-color: #38bdf8;
+    }
+    .custom-send button {
+      background: #0284c7;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .custom-send button:hover { background: #0369a1; }
+
+    .toast {
+      display: none;
+      background: #059669;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-top: 12px;
+      font-weight: 500;
+    }
+    .hint {
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.5;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Lead Responder &bull; Walkthrough Controller</h1>
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span id="backend-status">Connected to Local API</span>
+      </div>
+    </div>
+
+    <!-- Active Lead Card -->
+    <div class="card">
+      <div class="card-title">Active Test Lead in Database</div>
+      <div class="lead-info-grid">
+        <div>
+          <div class="lead-info-label">Lead Name</div>
+          <div class="lead-info-val" id="lead-name">Loading...</div>
+        </div>
+        <div>
+          <div class="lead-info-label">Contact ID</div>
+          <div class="lead-info-val" id="lead-contact-id">Loading...</div>
+        </div>
+        <div>
+          <div class="lead-info-label">Conversation State</div>
+          <div class="lead-info-val" id="conv-status">Loading...</div>
+        </div>
+      </div>
+      <p class="hint">Keep this window on the left side of your screen while recording. Click each button in sequence to send the message as the lead, and watch GHL Conversations update instantly on the right.</p>
+    </div>
+
+    <!-- Storyboard Actions -->
+    <div class="card">
+      <div class="card-title">Storyboard 1-Click Sequence (Deliverable 4)</div>
+      <div class="storyboard-buttons">
+        <button class="btn-step" onclick="sendMessage('I have a burst pipe in Brisbane.')">
+          <span><strong>Step 1:</strong> "I have a burst pipe in Brisbane."</span>
+          <span class="tag">AI Qualify & Offer Slots</span>
+        </button>
+
+        <button class="btn-step" onclick="sendMessage('Can you come Sunday night at 11 PM?')">
+          <span><strong>Step 2:</strong> "Can you come Sunday night at 11 PM?"</span>
+          <span class="tag">Guardrail: Rejects Weekend/Night</span>
+        </button>
+
+        <button class="btn-step" onclick="sendMessage('How about Tuesday at 10 AM?')">
+          <span><strong>Step 3:</strong> "How about Tuesday at 10 AM?"</span>
+          <span class="tag">Books Tuesday 10:00 AM</span>
+        </button>
+
+        <button class="btn-step" onclick="sendMessage('Actually, can I speak to a real person?')">
+          <span><strong>Step 4:</strong> "Actually, can I speak to a real person?"</span>
+          <span class="tag">Triggers Human Handoff</span>
+        </button>
+
+        <button class="btn-step" onclick="sendMessage('Hello?')">
+          <span><strong>Step 5:</strong> "Hello?"</span>
+          <span class="tag">Verifies Automation Stopped</span>
+        </button>
+      </div>
+
+      <div class="custom-send">
+        <input type="text" id="custom-msg" placeholder="Or type any custom message as the lead..." onkeydown="if(event.key==='Enter') sendCustom()">
+        <button onclick="sendCustom()">Send</button>
+      </div>
+
+      <div id="toast" class="toast"></div>
+    </div>
+  </div>
+
+  <script>
+    let currentContactId = "88CVox84fRJSxfmpdtqe";
+
+    async function loadLatestLead() {
+      try {
+        const res = await fetch('/api/latest-lead');
+        if (res.ok) {
+          const data = await res.json();
+          if (data.contactId) {
+            currentContactId = data.contactId;
+            document.getElementById('lead-name').textContent = data.name || "Alex Smith";
+            document.getElementById('lead-contact-id').textContent = data.contactId;
+            document.getElementById('conv-status').textContent = data.status || "QUALIFYING";
+          }
+        }
+      } catch (e) {
+        console.error("Failed to load lead", e);
+      }
+    }
+
+    async function sendMessage(text) {
+      const toast = document.getElementById('toast');
+      toast.style.display = 'block';
+      toast.style.background = '#0284c7';
+      toast.textContent = `Sending: "${text}"...`;
+
+      try {
+        const res = await fetch('/webhooks/ghl/message', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contactId: currentContactId,
+            message: text
+          })
+        });
+
+        if (res.ok) {
+          toast.style.background = '#059669';
+          toast.textContent = `Sent: "${text}". Check GHL Conversations tab!`;
+          setTimeout(() => { loadLatestLead(); }, 2000);
+        } else {
+          toast.style.background = '#dc2626';
+          toast.textContent = `Error sending message: ${res.status}`;
+        }
+      } catch (err) {
+        toast.style.background = '#dc2626';
+        toast.textContent = `Network error: ${err.message}`;
+      }
+    }
+
+    function sendCustom() {
+      const input = document.getElementById('custom-msg');
+      if (input.value.trim()) {
+        sendMessage(input.value.trim());
+        input.value = '';
+      }
+    }
+
+    loadLatestLead();
+    setInterval(loadLatestLead, 5000);
+  </script>
+
+  <!-- GHL Official Chat Widget Embed (Loads cleanly over HTTP) -->
+  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6ae3cbb2547e4f9d12ccf21b"></script>
+</body>
+</html>
