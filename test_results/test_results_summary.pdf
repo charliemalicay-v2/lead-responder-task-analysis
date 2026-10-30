@@ -1,0 +1,335 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 9437 >>
+stream
+0.08 0.18 0.29 rg 0 0 842 595 re f
+1 1 1 rg 0 0 842 530 re f
+BT /F1 9 Tf 0.35 0.48 0.61 rg 1 0 0 1 38 565 Tm (LEAD RESPONDER | QA REPORT) Tj ET
+BT /F1 22 Tf 0.08 0.18 0.29 rg 1 0 0 1 38 536 Tm (Test Results Summary) Tj ET
+BT /F1 12 Tf 0.05 0.48 0.37 rg 1 0 0 1 38 513 Tm (30 / 30 Passed \(100%\)) Tj ET
+BT /F1 8 Tf 0.35 0.48 0.61 rg 1 0 0 1 720 565 Tm (RESULTS  1-15) Tj ET
+0.08 0.18 0.29 rg 38 477 766 21 re f
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 42 485 Tm (ID) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 92 485 Tm (Scenario) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 277 485 Tm (Category) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 387 485 Tm (Expected State) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 500 485 Tm (Actual State) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 616 485 Tm (Handoff) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 690 485 Tm (Appt Created) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 770 485 Tm (Result) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 464 Tm (TC-001) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 464 Tm (Normal qualified lead) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 464 Tm (Happy Path) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 464 Tm (BOOKED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 464 Tm (BOOKED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 464 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 464 Tm (Yes) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 464 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 437 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 444 Tm (TC-002) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 444 Tm (All details in first message) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 444 Tm (Qualification) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 444 Tm (QUALIFIED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 444 Tm (QUALIFIED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 444 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 444 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 444 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 424 Tm (TC-003) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 424 Tm (One answer at a time) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 424 Tm (Qualification) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 424 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 424 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 424 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 424 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 424 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 397 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 404 Tm (TC-004) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 404 Tm (Price asked immediately) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 404 Tm (FAQ Handling) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 404 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 404 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 404 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 404 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 404 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 384 Tm (TC-005) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 384 Tm (Unsupported service) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 384 Tm (Scope Boundary) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 384 Tm (CLOSED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 384 Tm (CLOSED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 384 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 384 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 384 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 357 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 364 Tm (TC-006) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 364 Tm (Outside service area) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 364 Tm (Scope Boundary) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 364 Tm (CLOSED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 364 Tm (CLOSED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 364 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 364 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 364 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 344 Tm (TC-007) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 344 Tm (Vague location) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 344 Tm (Ambiguity) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 344 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 344 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 344 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 344 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 344 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 317 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 324 Tm (TC-008) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 324 Tm (Vague timeline) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 324 Tm (Ambiguity) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 324 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 324 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 324 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 324 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 324 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 304 Tm (TC-009) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 304 Tm (Relative date \("tomorrow"\)) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 304 Tm (Time Parsing) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 304 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 304 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 304 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 304 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 304 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 277 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 284 Tm (TC-010) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 284 Tm (Past date) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 284 Tm (Booking Rule) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 284 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 284 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 284 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 284 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 284 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 264 Tm (TC-011) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 264 Tm (Outside business hours) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 264 Tm (Booking Rule) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 264 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 264 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 264 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 264 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 264 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 237 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 244 Tm (TC-012) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 244 Tm (Unavailable slot) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 244 Tm (Availability) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 244 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 244 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 244 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 244 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 244 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 224 Tm (TC-013) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 224 Tm (Slot taken during booking) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 224 Tm (Concurrency) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 224 Tm (BOOKING_CONFLICT) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 224 Tm (BOOKING_CONFLICT) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 224 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 224 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 224 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 197 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 204 Tm (TC-014) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 204 Tm (Valid slot confirmed) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 204 Tm (Booking Rule) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 204 Tm (BOOKED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 204 Tm (BOOKED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 204 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 204 Tm (Yes) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 204 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 184 Tm (TC-015) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 184 Tm (Time changed before booking) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 184 Tm (Negotiation) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 184 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 184 Tm (AWAITING_TIME) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 184 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 184 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 184 Tm (PASS) Tj ET
+BT /F1 7 Tf 0.75 0.82 0.87 rg 1 0 0 1 38 18 Tm (Test execution results supplied for this report.) Tj ET
+BT /F1 7 Tf 0.75 0.82 0.87 rg 1 0 0 1 781 18 Tm (1 / 2) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 10193 >>
+stream
+0.08 0.18 0.29 rg 0 0 842 595 re f
+1 1 1 rg 0 0 842 530 re f
+BT /F1 9 Tf 0.35 0.48 0.61 rg 1 0 0 1 38 565 Tm (LEAD RESPONDER | QA REPORT) Tj ET
+BT /F1 22 Tf 0.08 0.18 0.29 rg 1 0 0 1 38 536 Tm (Test Results Summary) Tj ET
+BT /F1 12 Tf 0.05 0.48 0.37 rg 1 0 0 1 38 513 Tm (30 / 30 Passed \(100%\)) Tj ET
+BT /F1 8 Tf 0.35 0.48 0.61 rg 1 0 0 1 720 565 Tm (RESULTS  16-30) Tj ET
+0.08 0.18 0.29 rg 38 477 766 21 re f
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 42 485 Tm (ID) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 92 485 Tm (Scenario) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 277 485 Tm (Category) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 387 485 Tm (Expected State) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 500 485 Tm (Actual State) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 616 485 Tm (Handoff) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 690 485 Tm (Appt Created) Tj ET
+BT /F1 7 Tf 1 1 1 rg 1 0 0 1 770 485 Tm (Result) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 464 Tm (TC-016) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 464 Tm (Explicit human request) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 464 Tm (Handoff) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 464 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 464 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 464 Tm (Yes) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 464 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 464 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 437 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 444 Tm (TC-017) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 444 Tm (Angry lead) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 444 Tm (Handoff) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 444 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 444 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 444 Tm (Yes) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 444 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 444 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 424 Tm (TC-018) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 424 Tm (Profanity without human req.) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 424 Tm (Tone Control) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 424 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 424 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 424 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 424 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 424 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 397 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 404 Tm (TC-019) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 404 Tm (Empty or unclear reply) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 404 Tm (Ambiguity) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 404 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 404 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 404 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 404 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 404 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 384 Tm (TC-020) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 384 Tm (Multiple unrelated questions) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 384 Tm (FAQ Handling) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 384 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 384 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 384 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 384 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 384 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 357 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 364 Tm (TC-021) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 364 Tm (Ignore-rules request) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 364 Tm (Guardrails) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 364 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 364 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 364 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 364 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 364 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 344 Tm (TC-022) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 344 Tm (Prompt injection attack) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 344 Tm (Guardrails) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 344 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 344 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 344 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 344 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 344 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 317 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 324 Tm (TC-023) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 324 Tm (Conflicting answers) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 324 Tm (Ambiguity) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 324 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 324 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 324 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 324 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 324 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 304 Tm (TC-024) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 304 Tm (Service changed mid-chat) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 304 Tm (Qualification) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 304 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 304 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 304 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 304 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 304 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 277 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 284 Tm (TC-025) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 284 Tm (Emergency or unsafe request) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 284 Tm (Safety Handoff) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 284 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 284 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 284 Tm (Yes) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 284 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 284 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 264 Tm (TC-026) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 264 Tm (Not interested \(opt-out\)) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 264 Tm (Opt-out) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 264 Tm (NOT_INTERESTED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 264 Tm (NOT_INTERESTED) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 264 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 264 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 264 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 237 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 244 Tm (TC-027) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 244 Tm (Duplicate GHL webhook) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 244 Tm (Idempotency) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 244 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 244 Tm (QUALIFYING) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 244 Tm (No) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 244 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 244 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 224 Tm (TC-028) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 224 Tm (GHL API 500 failure) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 224 Tm (Resilience) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 224 Tm (GHL_ERROR) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 224 Tm (GHL_ERROR) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 224 Tm (Yes) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 224 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 224 Tm (PASS) Tj ET
+0.94 0.96 0.98 rg 38 197 766 20 re f
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 204 Tm (TC-029) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 204 Tm (Ollama timeout / down) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 204 Tm (Resilience) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 204 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 204 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 204 Tm (Yes) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 204 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 204 Tm (PASS) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 42 184 Tm (TC-030) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 92 184 Tm (Reply after human handoff) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 277 184 Tm (Invariant Stop) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 387 184 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 500 184 Tm (HANDOFF_ACTIVE) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 616 184 Tm (Yes) Tj ET
+BT /F1 6.6 Tf 0.12 0.18 0.24 rg 1 0 0 1 690 184 Tm (No) Tj ET
+BT /F1 7 Tf 0.05 0.48 0.37 rg 1 0 0 1 770 184 Tm (PASS) Tj ET
+BT /F1 13 Tf 0.08 0.18 0.29 rg 1 0 0 1 38 149 Tm (Key Invariants Verified) Tj ET
+BT /F1 8 Tf 0.20 0.27 0.34 rg 1 0 0 1 44 131 Tm (- Zero Double Bookings: preserved via pre-reservation SHA-256 idempotency locks.) Tj ET
+BT /F1 8 Tf 0.20 0.27 0.34 rg 1 0 0 1 44 116 Tm (- Zero Bookings Outside Hours: Sunday midnight and past requests rejected by Python rules without consulting the model.) Tj ET
+BT /F1 8 Tf 0.20 0.27 0.34 rg 1 0 0 1 44 101 Tm (- Zero Prompt Leaks: injection strings \(TC-022\) did not extract system prompts or bypass qualification.) Tj ET
+BT /F1 8 Tf 0.20 0.27 0.34 rg 1 0 0 1 44 86 Tm (- Strict Handoff Invariant: post-handoff message \(TC-030\) halted AI processing immediately.) Tj ET
+BT /F1 7 Tf 0.75 0.82 0.87 rg 1 0 0 1 38 18 Tm (Test execution results supplied for this report.) Tj ET
+BT /F1 7 Tf 0.75 0.82 0.87 rg 1 0 0 1 781 18 Tm (2 / 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000009741 00000 n 
+0000009867 00000 n 
+0000020112 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+20182
+%%EOF
